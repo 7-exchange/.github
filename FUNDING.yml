@@ -1,6 +1,0 @@
-# Optional. Controls the "Sponsor" button on repos.
-# Most DeFi protocols leave this disabled. Uncomment and fill in only if you
-# actually want sponsorship links shown. Delete this file to show nothing.
-
-# github: [7ExchangeDefi]
-# custom: ["https://7.exchange"]

@@ -15,7 +15,7 @@ By participating, you agree to abide by our [Code of Conduct](./CODE_OF_CONDUCT.
 - **Request features** — open an issue using the feature request template
 - **Improve docs** — corrections and clarifications are always welcome
 - **Submit code** — fixes, tests, and integrations via pull request
-- **Build integrations** — using the [API](https://7exchange.gitbook.io/docs/developers/api-reference), [SDK](https://7exchange.gitbook.io/docs/developers), or [widget](https://7exchange.gitbook.io/docs/developers/widget)
+- **Build integrations** — using the [API](https://docs.7.exchange/docs/developers/api-reference), [SDK](https://docs.7.exchange/docs/developers), or [widget](https://docs.7.exchange/docs/developers/widget)
 
 ## Before you start
 

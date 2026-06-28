@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for taking the time to file a bug report!
 
-        ⚠️ **Security issue?** Stop here and follow our [Security Policy](https://github.com/7ExchangeDefi/.github/blob/main/SECURITY.md) — do not file it publicly.
+        ⚠️ **Security issue?** Stop here and follow our [Security Policy](https://github.com/7-exchange/.github/blob/main/SECURITY.md) — do not file it publicly.
   - type: checkboxes
     id: preflight
     attributes:

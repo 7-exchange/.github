@@ -12,8 +12,8 @@ This policy explains **how to report a vulnerability**, **what is in scope**, an
 
 Report privately through **one** of the following:
 
-- **Email:** `security@7.exchange` *(replace with your verified address before publishing)*
-- **GitHub Private Vulnerability Reporting:** use the **"Report a vulnerability"** button under the *Security* tab of the affected repository (enable *Private vulnerability reporting* in each repo's settings first)
+- **Email:** `dev@7.exchange`
+- **GitHub Private Vulnerability Reporting:** use the **"Report a vulnerability"** button under the *Security* tab of the affected repository
 
 > If you are submitting sensitive details, request our PGP key in your first message and we will provide an encrypted channel.
 

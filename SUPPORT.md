@@ -14,10 +14,10 @@ Thanks for using 7.Exchange! Here's how to get help depending on what you need.
 
 ## Developer & integration support
 
-- **Documentation** — [7exchange.gitbook.io](https://7exchange.gitbook.io)
-- **API reference** — [API docs](https://7exchange.gitbook.io/docs/developers/api-reference)
-- **SDK & widget** — [developer docs](https://7exchange.gitbook.io/docs/developers)
-- **Supported infrastructure** — [chains, bridges, wallets](https://7exchange.gitbook.io/docs/supported-infrastructure)
+- **Documentation** — [docs.7.exchange](https://docs.7.exchange)
+- **API reference** — [API docs](https://docs.7.exchange/docs/developers/api-reference)
+- **SDK & widget** — [developer docs](https://docs.7.exchange/docs/developers)
+- **Supported infrastructure** — [chains, bridges, wallets](https://docs.7.exchange/docs/supported-infrastructure)
 
 ## Reporting a bug
 

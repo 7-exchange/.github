@@ -7,8 +7,8 @@
 Swap, bridge, and trade across chains in a single non-custodial flow — connecting DEXs, bridges, wallets, and liquidity sources, with routes optimized for real execution outcomes rather than headline quotes.
 
 [Launch App](https://7.exchange/swap) ·
-[Documentation](https://7exchange.gitbook.io) ·
-[API Reference](https://7exchange.gitbook.io/docs/developers/api-reference) ·
+[Documentation](https://docs.7.exchange) ·
+[API Reference](https://docs.7.exchange/docs/developers/api-reference) ·
 [Roadmap](https://7.exchange/#roadmap)
 
 [![X](https://img.shields.io/badge/X-@7exchangedefi-000000?logo=x&logoColor=white)](https://twitter.com/7exchangedefi)
@@ -30,16 +30,16 @@ Supported trading modes include cross-chain swaps, decentralized limit orders, p
 
 | Surface | What it gives you | Link |
 |---|---|---|
-| **REST API** | Real-time routing, liquidity, and execution endpoints | [API Reference](https://7exchange.gitbook.io/docs/developers/api-reference) |
-| **TypeScript SDK** | Typed client for routing and execution | [Docs](https://7exchange.gitbook.io/docs/developers) |
-| **Swap Widget** | Drop-in, embeddable trading interface | [Widget Docs](https://7exchange.gitbook.io/docs/developers/widget) |
+| **REST API** | Real-time routing, liquidity, and execution endpoints | [API Reference](https://docs.7.exchange/docs/developers/api-reference) |
+| **TypeScript SDK** | Typed client for routing and execution | [Docs](https://docs.7.exchange/docs/developers) |
+| **Swap Widget** | Drop-in, embeddable trading interface | [Widget Docs](https://docs.7.exchange/docs/developers/widget) |
 | **Smart Contracts** | The Diamond Router (EIP-2535) and facets | see the `contracts` repo |
 
-> New here? Start with the [developer documentation](https://7exchange.gitbook.io/docs/developers) and the [supported infrastructure](https://7exchange.gitbook.io/docs/supported-infrastructure) overview.
+> New here? Start with the [developer documentation](https://docs.7.exchange/docs/developers) and the [supported infrastructure](https://docs.7.exchange/docs/supported-infrastructure) overview.
 
 ## Security
 
-Security is our highest priority — we move real value across chains. If you've found a vulnerability, **please do not open a public issue.** Review our [Security Policy](https://github.com/7ExchangeDefi/.github/blob/main/SECURITY.md) and report it through the disclosure channel described there. A Diamond Router bug bounty program is part of our roadmap.
+Security is our highest priority — we move real value across chains. If you've found a vulnerability, **please do not open a public issue.** Review our [Security Policy](https://github.com/7-exchange/.github/blob/main/SECURITY.md) and report it through the disclosure channel described there. A Diamond Router bug bounty program is part of our roadmap.
 
 ## Community & support
 
@@ -50,7 +50,7 @@ Security is our highest priority — we move real value across chains. If you've
 
 ## Contributing
 
-We welcome issues, fixes, and integrations. Read [CONTRIBUTING.md](https://github.com/7ExchangeDefi/.github/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/7ExchangeDefi/.github/blob/main/CODE_OF_CONDUCT.md) before opening a pull request.
+We welcome issues, fixes, and integrations. Read [CONTRIBUTING.md](https://github.com/7-exchange/.github/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/7-exchange/.github/blob/main/CODE_OF_CONDUCT.md) before opening a pull request.
 
 ---
 

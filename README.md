@@ -9,7 +9,7 @@ GitHub automatically applies the files in this repository to **every repo in the
 ```
 .github/                         <- this repository (named ".github")
 ├── profile/
-│   └── README.md                # rendered on github.com/7ExchangeDefi
+│   └── README.md                # rendered on github.com/7-exchange
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── bug_report.yml
