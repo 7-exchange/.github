@@ -1,0 +1,47 @@
+# Default code owners for the 7.Exchange organization
+#
+# This file provides a baseline. Individual repositories SHOULD define their own
+# .github/CODEOWNERS to require the right teams on security-sensitive paths.
+#
+# Owners are requested for review automatically when matching files change.
+# Pair this with a branch protection rule: "Require review from Code Owners".
+#
+# Create these teams in the org (Settings -> Teams) and adjust the handles below.
+
+# ---------------------------------------------------------------------------
+# Fallback: everything is owned by core maintainers unless overridden below.
+# ---------------------------------------------------------------------------
+*                           @7ExchangeDefi/core
+
+# ---------------------------------------------------------------------------
+# Smart contracts — highest scrutiny. Require the contracts + security teams.
+# (Place a repo-specific version of these rules in the `contracts` repo.)
+# ---------------------------------------------------------------------------
+# /contracts/                @7ExchangeDefi/contracts @7ExchangeDefi/security
+# /src/facets/               @7ExchangeDefi/contracts @7ExchangeDefi/security
+# *.sol                      @7ExchangeDefi/contracts @7ExchangeDefi/security
+
+# ---------------------------------------------------------------------------
+# Routing / API backend
+# ---------------------------------------------------------------------------
+# /routing/                  @7ExchangeDefi/backend
+# /api/                      @7ExchangeDefi/backend
+
+# ---------------------------------------------------------------------------
+# SDK & widget (public, supply-chain sensitive)
+# ---------------------------------------------------------------------------
+# /sdk/                      @7ExchangeDefi/sdk
+# /widget/                   @7ExchangeDefi/frontend @7ExchangeDefi/sdk
+
+# ---------------------------------------------------------------------------
+# Frontend app
+# ---------------------------------------------------------------------------
+# /app/                      @7ExchangeDefi/frontend
+
+# ---------------------------------------------------------------------------
+# CI/CD and org config — protect the pipeline and these defaults.
+# ---------------------------------------------------------------------------
+/.github/                    @7ExchangeDefi/core @7ExchangeDefi/security
+/.github/workflows/          @7ExchangeDefi/security
+CODEOWNERS                   @7ExchangeDefi/core
+SECURITY.md                  @7ExchangeDefi/security

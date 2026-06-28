@@ -1,0 +1,82 @@
+name: 🐛 Bug report
+description: Report a reproducible bug (NOT a security vulnerability)
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report!
+
+        ⚠️ **Security issue?** Stop here and follow our [Security Policy](https://github.com/7ExchangeDefi/.github/blob/main/SECURITY.md) — do not file it publicly.
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-flight checks
+      options:
+        - label: This is **not** a security vulnerability (those go through the Security Policy).
+          required: true
+        - label: I searched existing issues and this hasn't been reported.
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps, inputs, and (if relevant) transaction hashes.
+      placeholder: |
+        1. Go to '...'
+        2. Select chain/token '...'
+        3. Attempt '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: chains
+    attributes:
+      label: Chain(s) / route involved
+      placeholder: "e.g. Ethereum -> Solana via <bridge>"
+  - type: input
+    id: tx
+    attributes:
+      label: Transaction hash(es), if any
+      placeholder: "0x... (please use testnet where possible)"
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did this happen?
+      options:
+        - Web app (7.exchange)
+        - REST API
+        - TypeScript SDK
+        - Swap widget
+        - Smart contracts
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Wallet, browser/OS, SDK or widget version, network.
+      placeholder: |
+        - Wallet: 
+        - Browser/OS: 
+        - SDK/widget version: 
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Logs / screenshots / additional context

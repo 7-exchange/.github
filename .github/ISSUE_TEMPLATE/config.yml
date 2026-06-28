@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/7ExchangeDefi/.github/blob/main/SECURITY.md
+    about: Do NOT open a public issue for security bugs. Read our Security Policy and report privately.
+  - name: 💬 Trading help & community support
+    url: https://discord.com/invite/8aujTp5znT
+    about: For account, swap, or general usage questions, ask in our Discord.
+  - name: 📚 Developer documentation
+    url: https://7exchange.gitbook.io/docs/developers
+    about: API, SDK, and widget docs — check here before opening an integration issue.
+  - name: ❓ FAQ
+    url: https://7.exchange/faq
+    about: Common questions about 7.Exchange.

@@ -1,0 +1,44 @@
+name: 🔌 Integration support
+description: Get help integrating the API, SDK, or widget
+labels: ["integration", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Building on 7.Exchange? Check the [developer docs](https://7exchange.gitbook.io/docs/developers) first — many answers live there. If you're still stuck, file this.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: What are you integrating?
+      options:
+        - REST API
+        - TypeScript SDK
+        - Swap widget
+        - Smart contracts (direct)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "SDK/widget version or API version"
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's happening instead?
+      description: Include request/response snippets or code (redact any secrets/keys!).
+    validations:
+      required: true
+  - type: checkboxes
+    id: secrets
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have removed all API keys, private keys, and secrets from this report.
+          required: true
