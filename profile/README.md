@@ -12,6 +12,7 @@ Swap, bridge, and trade across chains in a single non-custodial flow — connect
 [Roadmap](https://7.exchange/#roadmap)
 
 [![X](https://img.shields.io/badge/X-@7exchangedefi-000000?logo=x&logoColor=white)](https://twitter.com/7exchangedefi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@7exchange-000000?logo=x&logoColor=white)](https://www.linkedin.com/company/7-exchange)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/8aujTp5znT)
 [![Telegram](https://img.shields.io/badge/Telegram-Join-26A5E4?logo=telegram&logoColor=white)](https://t.me/Dex_7exchange)
 [![Medium](https://img.shields.io/badge/Medium-Read-12100E?logo=medium&logoColor=white)](https://7-exchange.medium.com/)

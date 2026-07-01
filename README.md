@@ -18,7 +18,5 @@ Organization-wide community health files and defaults for **7.Exchange**.
 ├── SECURITY.md                  # vulnerability disclosure policy
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
-├── SUPPORT.md
-├── CODEOWNERS                   # default owners for repos without their own
-└── FUNDING.yml                  # optional sponsor button (disabled by default)
+└── SUPPORT.md
 ```
