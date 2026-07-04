@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Building on 7.Exchange? Check the [developer docs](https://docs.7.exchange/docs/developers) first — many answers live there. If you're still stuck, file this.
+        Building on 7.Exchange? Check the [developer docs](https://docs.7.exchange/developers) first — many answers live there. If you're still stuck, file this.
   - type: dropdown
     id: surface
     attributes:

@@ -15,9 +15,9 @@ Thanks for using 7.Exchange! Here's how to get help depending on what you need.
 ## Developer & integration support
 
 - **Documentation** — [docs.7.exchange](https://docs.7.exchange)
-- **API reference** — [API docs](https://docs.7.exchange/docs/developers/api-reference)
-- **SDK & widget** — [developer docs](https://docs.7.exchange/docs/developers)
-- **Supported infrastructure** — [chains, bridges, wallets](https://docs.7.exchange/docs/supported-infrastructure)
+- **API reference** — [API docs](https://docs.7.exchange/developers/api-reference)
+- **SDK & widget** — [developer docs](https://docs.7.exchange/developers)
+- **Supported infrastructure** — [chains, bridges, wallets](https://docs.7.exchange/supported-infrastructure)
 
 ## Reporting a bug
 

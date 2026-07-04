@@ -8,7 +8,7 @@ Swap, bridge, and trade across chains in a single non-custodial flow — connect
 
 [Launch App](https://7.exchange/swap) ·
 [Documentation](https://docs.7.exchange) ·
-[API Reference](https://docs.7.exchange/docs/developers/api-reference) ·
+[API Reference](https://docs.7.exchange/developers/api-reference) ·
 [Roadmap](https://7.exchange/#roadmap)
 
 [![X](https://img.shields.io/badge/X-@7exchangedefi-000000?logo=x&logoColor=white)](https://twitter.com/7exchangedefi)
@@ -31,12 +31,12 @@ Supported trading modes include cross-chain swaps, decentralized limit orders, p
 
 | Surface | What it gives you | Link |
 |---|---|---|
-| **REST API** | Real-time routing, liquidity, and execution endpoints | [API Reference](https://docs.7.exchange/docs/developers/api-reference) |
-| **TypeScript SDK** | Typed client for routing and execution | [Docs](https://docs.7.exchange/docs/developers) |
-| **Swap Widget** | Drop-in, embeddable trading interface | [Widget Docs](https://docs.7.exchange/docs/developers/widget) |
+| **REST API** | Real-time routing, liquidity, and execution endpoints | [API Reference](https://docs.7.exchange/developers/api-reference) |
+| **TypeScript SDK** | Typed client for routing and execution | [Docs](https://docs.7.exchange/developers) |
+| **Swap Widget** | Drop-in, embeddable trading interface | [Widget Docs](https://docs.7.exchange/developers/widget) |
 | **Smart Contracts** | The Diamond Router (EIP-2535) and facets | see the `contracts` repo |
 
-> New here? Start with the [developer documentation](https://docs.7.exchange/docs/developers) and the [supported infrastructure](https://docs.7.exchange/docs/supported-infrastructure) overview.
+> New here? Start with the [developer documentation](https://docs.7.exchange/developers) and the [supported infrastructure](https://docs.7.exchange/supported-infrastructure) overview.
 
 ## Security
 
