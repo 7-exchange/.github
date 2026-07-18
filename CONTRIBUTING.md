@@ -38,6 +38,21 @@ For anything beyond a small fix, **open an issue first** to discuss the approach
 - Reviews are dismissed when you push new commits; re-request review after addressing feedback.
 - Maintainers may request changes for security, correctness, or consistency reasons.
 
+### Documentation contributions
+
+Docs live in [7-exchange/docs](https://github.com/7-exchange/docs) and publish to
+[docs.7.exchange](https://docs.7.exchange).
+
+- Typo fixes, broken links, and clarifications don't need an issue first — open the
+  PR directly.
+- New pages or restructuring: open an issue first so placement and sidebar
+  structure can be agreed before you write.
+- Docs PRs require one maintainer approval.
+- When you change a public interface — API, SDK, or widget — update the docs in the
+  same PR as the behaviour change, not a follow-up.
+- Stack-specific setup, MDX components, and writing conventions are in the repo's
+  `AUTHORING.md`.
+  
 ### Smart contract contributions
 
 Contract changes carry the highest risk and the highest bar:
