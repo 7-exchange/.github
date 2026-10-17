@@ -2,7 +2,9 @@
 
 7.Exchange is a non-custodial, cross-chain execution layer that moves real value across multiple networks. We take security extremely seriously and deeply appreciate the work of security researchers who help keep users safe.
 
-This policy explains **how to report a vulnerability**, **what is in scope**, and **the protections we extend to good-faith research**.
+This policy explains **how to report a vulnerability**, **what is in scope**, and **the rules for good-faith research**.
+
+This policy follows the published [Bug Bounty Program](https://docs.7.exchange/security/bug-bounty-program).
 
 ---
 
@@ -10,12 +12,7 @@ This policy explains **how to report a vulnerability**, **what is in scope**, an
 
 **Do not open a public GitHub issue, pull request, or Discord/Telegram message for security vulnerabilities.** Public disclosure before a fix is deployed puts user funds at risk.
 
-Report privately through **one** of the following:
-
-- **Email:** `dev@7.exchange`
-- **GitHub Private Vulnerability Reporting:** use the **"Report a vulnerability"** button under the *Security* tab of the affected repository
-
-> If you are submitting sensitive details, request our PGP key in your first message and we will provide an encrypted channel.
+File a private ticket with your findings through our [bug report panel](https://discord.gg/DArANebGFm) on Discord.
 
 Please include, where possible:
 
@@ -33,8 +30,8 @@ We will acknowledge your report, work with you on validation, and keep you updat
 |---|---|
 | Acknowledge receipt | within **48 hours** |
 | Initial severity assessment | within **5 business days** |
-| Status updates | at least every **7 days** until resolved |
-| Coordinated public disclosure | by mutual agreement, typically after a fix is deployed |
+| Resolution | timeline depends on complexity; we will keep you informed of progress |
+| Public disclosure | only after the vulnerability has been acknowledged and resolved |
 
 ---
 
@@ -42,52 +39,41 @@ We will acknowledge your report, work with you on validation, and keep you updat
 
 In scope:
 
-- **Smart contracts** — the Diamond Router (EIP-2535), its facets, and any related on-chain contracts deployed by 7.Exchange. Canonical deployed addresses are published in the `contracts` repository; only those addresses are in scope.
-- **Routing & quote engine / API** — `*.7.exchange` API endpoints and the routing/execution backend.
-- **Web application** — `https://7.exchange` and its subdomains.
-- **TypeScript SDK** and the **embeddable swap widget** published by 7.Exchange.
-- **Org infrastructure** — exposed secrets, CI/CD pipeline weaknesses, or supply-chain issues affecting the repositories in this organization.
-
-Examples of issues we especially care about: loss or theft of user funds, unauthorized state changes, broken access control or facet/upgrade authorization in the Diamond, signature/replay flaws, routing manipulation that harms execution, price/slippage bypasses, bridge-message handling flaws, and secret/key exposure.
+- **7.Exchange smart contracts** — The Diamond Router contracts are in pre-deployment testing. Vulnerabilities found in these contracts during the bounty period are in scope.
+- **Platform security** — Critical vulnerabilities affecting the integrity of quotes, execution payloads, or user data.
 
 ### Out of scope
 
-- Vulnerabilities in third-party DEXs, bridges, wallets, or liquidity sources we integrate with (report those to the respective projects)
-- Findings that require a compromised user device, malicious browser extension, or physical access
-- Theoretical issues without a demonstrated security impact, or best-practice suggestions with no exploit path
-- Spam, social engineering, phishing, and attacks against our staff or infrastructure providers
-- Automated scanner output without validation; missing security headers, SPF/DMARC, or rate-limiting without a concrete impact
-- Denial of service through traffic volume, and issues only reproducible on unsupported/outdated software
-- Recently disclosed 0-days in dependencies (give us reasonable time to patch)
+- Third-party bridge or DEX smart contracts (report these to the respective projects)
+- UI/UX bugs that do not have a security impact
+- Social engineering attacks
+- Denial-of-service attacks
+- Issues already known or previously reported
 
 ---
 
-## Severity & rewards
+## Rewards
 
-We assess severity using an impact-based model (loss of funds, scope of affected users, exploit complexity), broadly aligned with industry standards for DeFi.
+Rewards are determined based on the severity and impact of the vulnerability. Factors include:
 
-| Severity | Typical example |
-|---|---|
-| **Critical** | Direct, scalable theft or permanent loss of user funds; unauthorized Diamond upgrade or facet takeover |
-| **High** | Theft/loss under specific conditions; significant unauthorized state change |
-| **Medium** | Limited fund-at-risk scenarios; meaningful integrity or availability impact |
-| **Low** | Minor issues with limited impact; defense-in-depth gaps |
+- Potential for fund loss
+- Scope of affected users
+- Complexity of the exploit
+- Quality of the report
 
-A formal **bug bounty program for the Diamond Router** is on our roadmap. Until it launches with published reward tiers, valid reports are still triaged, fixed, and eligible for discretionary recognition and rewards. When the program goes live (e.g. via a bounty platform), this section will link to the official scope and payout tiers, which will govern reward amounts.
+Reward amounts are determined at 7.Exchange's discretion and communicated during the assessment phase.
 
 ---
 
-## Safe harbor for good-faith research
+## Rules
 
-We will not pursue or support legal action against researchers who, in good faith:
+- Act in good faith. Test only against test environments or your own accounts.
+- Do not exploit vulnerabilities beyond what is necessary to demonstrate the issue.
+- Do not access, modify, or delete other users' data.
+- One report per vulnerability. Duplicate reports are not eligible for rewards.
+- Compliance with applicable laws is required.
 
-- Make a genuine effort to avoid privacy violations, data destruction, and interruption or degradation of our services
-- **Only interact with accounts and funds they own, or with explicit permission** — and use testnets or their own funds rather than other users' assets
-- Do **not** exploit a finding beyond the minimum necessary to demonstrate it, and do not withdraw, move, or retain user funds
-- Report promptly and give us reasonable time to remediate before any public disclosure
-- Do not violate applicable law
-
-If you are unsure whether a specific action is authorized, ask us first at `security@7.exchange`. We will work with you in good faith and consider research conducted consistently with this policy to be authorized.
+> Attempting to exploit vulnerabilities on production systems, accessing other users' funds or data, or violating the rules above will disqualify you from the program and may result in legal action.
 
 > This document is a security policy, not a contract or a guarantee of payment, and does not grant permission to act unlawfully or to access third-party systems.
 
